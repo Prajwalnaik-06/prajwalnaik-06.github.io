@@ -472,7 +472,7 @@ section .button button a:hover{
     color: black;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .About .about-details{
         justify-content: center;
         flex-direction: column;
@@ -489,7 +489,7 @@ section .button button a:hover{
     }
 }
 
-@media(max-width:600px) {
+@media(max-width:991px) {
     #home-icon{
         display: block;
     }
@@ -513,11 +513,14 @@ section .button button a:hover{
         font-size: 2rem;
         margin: 2rem 0;
     }
-
+}
+@media(max-width:768px){
     .About .left #img{
         height: 350px;
         width: 350px;
     }
+}
+    @media(max-width:617px){
 
     section .button button{
         padding: 4px 8px;
@@ -557,7 +560,7 @@ section .button button a:hover{
     }
 }
 
-@media(max-width:968px) {
+@media(max-width:450px) {
     nav .logo{
         position: absolute;
         top: 16px;
