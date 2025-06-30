@@ -4,9 +4,9 @@
     font-family: 'Poppins', 'sans-serif';
     text-decoration: none;
     scroll-behavior: smooth;
-    box-sizing: border-box; /* Added to normalize box sizing */
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
 }
 
 body {
@@ -72,13 +72,15 @@ header {
 
 section {
     min-height: 100vh;
-    padding-top: 150px; /* Ensured space for fixed header */
+    padding-top: 150px; 
 }
 
 section .main-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10%;
+    margin-left: 10%;
 }
 
 .main-container .content {
@@ -256,7 +258,7 @@ section .button button:hover {
 }
 
 .skill-details .box {
-    width: calc(50% - 20px); /* Updated for flex layout */
+    width: calc(50% - 20px); 
     margin: 20px 0;
 }
 
@@ -277,7 +279,7 @@ section .button button:hover {
 
 .Projects .project-details {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Updated to use 1fr for responsive columns */
+    grid-template-columns: repeat(2, 1fr); 
     align-items: center;
     gap: 2.5rem;
 }
@@ -290,12 +292,12 @@ section .button button:hover {
 }
 
 .project-box img {
-    width: 100%; /* Changed to 100% for proper scaling */
+    width: 80%; 
     transition: 0.5s ease;
 }
 
 .project-box:hover img {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05); 
 }
 
 .project-box .project-layer {
@@ -370,7 +372,7 @@ section .button button:hover {
 }
 
 .Contact form .input-box input {
-    width: 49%; /* Adjusted to fit side by side */
+    width: 49%; 
 }
 
 .Contact form textarea {
@@ -435,7 +437,7 @@ section .button button:hover {
     }
 
     .navbar {
-        display: none; /* Initially hidden */
+        display: none; 
         position: absolute;
         background: #333;
         width: 60%;
@@ -445,7 +447,7 @@ section .button button:hover {
     }
 
     .navbar.active {
-        display: block; /* Show the navbar */
+        display: block; 
     }
 
     .navbar a {
@@ -468,6 +470,12 @@ section .button button:hover {
     .About .about-details .right {
         width: 90%;
         margin: 40px 0;
+    }
+
+    .About .left #img {
+        height: 200px;
+        width: 200px;
+        border-radius: 8px;
     }
 
     .Skills .skill-details {
@@ -498,7 +506,7 @@ section .button button:hover {
 
     .Projects .project-details {
         display: grid;
-        grid-template-columns: repeat(1, 1fr); /* Adjusted for responsiveness */
+        grid-template-columns: repeat(1, 1fr); 
         gap: 1rem;
     }
 }
